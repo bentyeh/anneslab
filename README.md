@@ -14,16 +14,14 @@ Rather than perform a costly systematic or high-throughput knockdown/knockout sc
 
 Datasets were chosen from the literature based on inclusion of both OTSSP167 and one or more less-toxic compounds against a broad kinase panel.
 
-| Name    | Kinase panel                                     | # targets tested | Metric                  | Compounds tested (concentration)             |
-| ------- |:------------------------------------------------ |:---------------- |:----------------------- |:-------------------------------------------- |
-| Annes   | KINOMEscan scanMAX                               | 468 \*\*         | % control \*            | OTSSP167 (100 nM), STF-1285 (100 nM, 500 nM) |
-| Klaeger | Kinobeads                                        | 520 \*\*\*       | K<sub>d,app</sub> \*    | OTSSP167, CC-401, many others (3 nM - 30 uM) |
-| Huang   | International Centre for Kinase Profiling (ICKP) | 140              | % activity remaining \* | OTSSP167, HTH-01-091 (1 uM)                  |
+| Name    | Kinase panel                                     | # targets tested | Metric\*                  | Compounds tested (concentration)             |
+| ------- |:------------------------------------------------ |:---------------- |:-------------------- |:-------------------------------------------- |
+| Annes   | KINOMEscan scanMAX                               | 468 \*\*         | % control            | OTSSP167 (100 nM), STF-1285 (100 nM, 500 nM) |
+| Klaeger | Kinobeads                                        | 520 \*\*\*       | K<sub>d,app</sub>    | OTSSP167, CC-401, many others (3 nM - 30 uM) |
+| Huang   | International Centre for Kinase Profiling (ICKP) | 140              | % activity remaining | OTSSP167, HTH-01-091 (1 uM)                  |
 
-\* Lower value indicates more effective inhibition.
-
-\*\* Includes kinases with multiple variants (different phosphorylation states or mutations)
-
+\* Lower value indicates more effective inhibition.  
+\*\* Includes kinases with multiple variants (different phosphorylation states or mutations)  
 \*\*\* Includes 242 protein and lipid kinases, 88 non-kinase direct binders ("nucleotide binders, helicases, ATPases and GTPases, FAD (e.g., NQO2) and heme (e.g., FECH) containing proteins"), and 190 non-kinase non-direct binders ("interaction partners/adaptor proteins of the kinases"). See the "Target selection criteria" section within the *Supplementary Text* chapter under Supplementary Materials for Klaeger et al.
 
 ## Methods <a name="methods"></a>
