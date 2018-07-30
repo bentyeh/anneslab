@@ -1,8 +1,8 @@
-# STF-1081 Drug Toxicity Target Identification
+# OTSSP167 Drug Toxicity Target Identification
 
 ## Objective
 
-Identify off-target kinases inhibited by STF-1081 that are likely responsible for its toxicity.
+Identify off-target kinases inhibited by OTSSP167 that are likely responsible for its toxicity.
 
 ## Background
 
@@ -21,7 +21,9 @@ Datasets were chosen from the literature based on inclusion of both OTSSP167 and
 | Huang   | International Centre for Kinase Profiling (ICKP) | 140              | % activity remaining \* | OTSSP167, HTH-01-091 (1 uM)                  |
 
 \* Lower value indicates more effective inhibition.
+
 \*\* Includes kinases with multiple variants (different phosphorylation states or mutations)
+
 \*\*\* Includes 242 protein and lipid kinases, 88 non-kinase direct binders ("nucleotide binders, helicases, ATPases and GTPases, FAD (e.g., NQO2) and heme (e.g., FECH) containing proteins"), and 190 non-kinase non-direct binders ("interaction partners/adaptor proteins of the kinases"). See the "Target selection criteria" section within the *Supplementary Text* chapter under Supplementary Materials for Klaeger et al.
 
 ## Methods <a name="methods"></a>
