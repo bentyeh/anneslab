@@ -14,7 +14,7 @@ Rather than perform a costly systematic or high-throughput knockdown/knockout sc
 
 Datasets were chosen from the literature based on inclusion of both OTSSP167 and one or more less-toxic compounds against a broad kinase panel.
 
-| Name    | Kinase panel                                     | # targets tested | Metric\*                  | Compounds tested (concentration)             |
+| Name    | Kinase panel                                     | # targets tested | Metric \*            | Compounds tested (concentration)             |
 | ------- |:------------------------------------------------ |:---------------- |:-------------------- |:-------------------------------------------- |
 | Annes   | KINOMEscan scanMAX                               | 468 \*\*         | % control            | OTSSP167 (100 nM), STF-1285 (100 nM, 500 nM) |
 | Klaeger | Kinobeads                                        | 520 \*\*\*       | K<sub>d,app</sub>    | OTSSP167, CC-401, many others (3 nM - 30 uM) |
@@ -27,7 +27,7 @@ Datasets were chosen from the literature based on inclusion of both OTSSP167 and
 ## Methods <a name="methods"></a>
 
 ### Boolean filtering
-Find the intersection across all datasets of targets that are inhibited by OTSSP167 but not by a less toxic compound, such as CC-401 [Celgene], HTH-01-091 [[Huang]](#ref), or STF-1285 [Annes].
+Find the intersection across all datasets of targets that are inhibited by OTSSP167 but not by a less toxic compound, such as CC-401 [Celgene], HTH-01-091 [[Huang]](#ref), or STF-1285 [Annes]. A target is labeled "inhibited" or "not inhibited" based on various threshold parameters.
 
 ### Rank ordering
 Within each dataset, rank each target by the difference in inhibition between OTSSP167 and a less toxic drug; normalize by the number of targets in the dataset. For each target, sum the rank across all datasets. Lower rank values indicate more differentially inhibited by OTSSP167 than the less toxic compounds.
@@ -84,3 +84,5 @@ Initial *in vitro* validation experiments suggest that Aurora kinase B (AURKB) i
 3. [Chung, S. et al. Development of an orally-administrative MELK-targeting inhibitor that suppresses the growth of various types of human cancer. *Oncotarget* 3, 1629-40 (2012)](https://doi.org/10.18632/oncotarget.790)
 4. [Wang, P. et al. A high-throughput chemical screen reveals that harmine-mediated inhibition of DYRK1A increases human pancreatic beta cell replication. *Nature Medicine* 21, 383-388 (2015).](https://www.nature.com/articles/nm.3820)
 5. [DiscoverX KINOMEscan(R)](https://www.discoverx.com/services/drug-discovery-development-services/kinase-profiling/kinomescan)
+
+Annes lab website: https://med.stanford.edu/annes-lab.html
